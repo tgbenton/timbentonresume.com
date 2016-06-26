@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 
 </head>
 
@@ -42,36 +43,239 @@
               <tr><td class="techcomp">Tools &#38 Software:</td><td class="techdata">Oracle RDBMS, Oracle Data Guard, RMAN Backup &#38 Recovery, Oracle Golden Gate, Oracle Real Application Clusters (RAC), Oracle Automatic Storage Management (ASM)</td></tr>
             </table>
             <hr><h4>PROFESSIONAL EXPERIENCE</h4><hr>
-            <div class="row" id="position">
+            <div class="row" id="position1">
               <div class="col-md-6">
                 <h5 class="title">Manager of Database Administration<br>
                 MARTA - Atlanta, Georgia</h5>
 
                 <h5 class="date">July 2012 to Present</h5>
 
-                <ul class="experienceDesc">
-                  <li>Manager for the Database Administration team supporting Oracle and SQL Server database systems.  Duties include project planning and implemention, assigning tasks to support internal improvements and project work.</li>
+                <ul class="experienceDesc" id="mgrMARTA">
+                  <script>
+                    $.ajax({
+                      url:"content/managerMARTA.html"
+                      }).done(function(data) {
+                      $("#mgrMARTA").append(data);
+                    });
+                  </script>
                 </ul>
+              </div>
+            </div>
+
+            <div class="row" id="position2">
+              <div class="col-md-6">
+                <h5 class="title">Senior Oracle Database Administrator<br>
+                MARTA - Atlanta, Georgia</h5>
+
+                <h5 class="date">April 2011 to July 2012</h5>
+
+                <ul class="experienceDesc" id="srDBAMARTA">
+                  <script>
+                    $.ajax({
+                      url:"content/seniorOracleDBAMARTA.html"
+                      }).done(function(data) {
+                      $("#srDBAMARTA").append(data);
+                    });
+                  </script>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row" id="position3">
+              <div class="col-md-6">
+                <h5 class="title">Senior Oracle Database Administrator<br>
+                Medquist - Norcross, Georgia</h5>
+
+                <h5 class="date">December 2007 to April 2011</h5>
+
+                <ul class="experienceDesc" id="srDBAMedquist">
+                  <script>
+                    $.ajax({
+                      url:"content/seniorOracleDBAMedquist.html"
+                      }).done(function(data) {
+                      $("#srDBAMedquist").append(data);
+                    });
+                  </script>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row" id="position4">
+              <div class="col-md-6">
+                <h5 class="title">Senior Database Administrator<br>
+                Performance Matters - Roswell, Georgia</h5>
+
+                <h5 class="date">June 2007 to December 2007</h5>
+
+                <ul class="experienceDesc" id="srDBAPerformanceMatters">
+                  <script>
+                    $.ajax({
+                      url:"content/seniorDBA.html"
+                      }).done(function(data) {
+                      $("#srDBAPerformanceMatters").append(data);
+                    });
+                  </script>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row" id="position5">
+              <div class="col-md-6">
+                <h5 class="title">Technical Lead Analyst - Packaging Division<br>
+                Georgia Pacific - Atlanta, Georgia</h5>
+
+                <h5 class="date">March 2005 to June 2007</h5>
+
+                <ul class="experienceDesc" id="techLeadAnalystGP">
+                  <script>
+                    $.ajax({
+                      url:"content/techLeadAnalystGP.html"
+                      }).done(function(data) {
+                      $("#techLeadAnalystGP").append(data);
+                    });
+                  </script>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row" id="position6">
+              <div class="col-md-6">
+                <h5 class="title">Data Architect - GP Central Database Services<br>
+                Georgia Pacific - Atlanta, Georgia</h5>
+
+                <h5 class="date">December 2004 to March 2005</h5>
+
+                <ul class="experienceDesc" id="dataArchitectGP">
+                  <script>
+                    $.ajax({
+                      url:"content/dataArchitectGP.html"
+                      }).done(function(data) {
+                      $("#dataArchitectGP").append(data);
+                    });
+                  </script>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row" id="position7">
+              <div class="col-md-6">
+                <h5 class="title">Database Development Team Lead - GP Central Database Services<br>
+                Georgia Pacific - Atlanta, Georgia</h5>
+
+                <h5 class="date">May 2003 to December 2004</h5>
+
+                <ul class="experienceDesc" id="teamLeadGP">
+                  <script>
+                    $.ajax({
+                      url:"content/teamLeadGP.html"
+                      }).done(function(data) {
+                      $("#teamLeadGP").append(data);
+                    });
+                  </script>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row" id="position8">
+              <div class="col-md-6">
+                <h5 class="title">Lead Oracle Database Administrator - CPG Manugistics<br>
+                Georgia Pacific - Atlanta, Georgia</h5>
+
+                <h5 class="date">April 2001 to May 2003</h5>
+
+                <ul class="experienceDesc" id="leadOracleDBAGP">
+                  <script>
+                    $.ajax({
+                      url:"content/leadOracleDBA.html"
+                      }).done(function(data) {
+                      $("#leadOracleDBAGP").append(data);
+                    });
+                  </script>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row" id="position9">
+              <div class="col-md-6">
+                <h5 class="title">Oracle Database Administrator<br>
+                Advanced Control Systems - Norcross, Georgia</h5>
+
+                <h5 class="date">November 2000 to April 2001</h5>
+
+              </div>
+            </div>
+            <br>
+            <div class="row" id="position10">
+              <div class="col-md-6">
+                <h5 class="title">Database Administrator<br>
+                Enterpulse - Decatur, Georgia</h5>
+
+                <h5 class="date">May 1998 to November 2000</h5>
+
               </div>
             </div>
         </div>
     </div>
-
+    <br>
     <div class="row" id="education">
-        <div class="col-md-12">
+      <div class="col-md-12">
           <hr><h4>EDUCATION</h4><hr>
-        </div>
-    </div>
 
+        <div class="row" id="school">
+          <div class="col-md-6">
+            <h5 class="title">Georgia State University<br>
+            Atlanta, Georgia</h5>
+
+            <h5 class="date">September 1992 to June 1998</h5>
+
+            <ul class="education" id="educationGSU">
+              <script>
+                $.ajax({
+                  url:"content/educationGSU.html"
+                  }).done(function(data) {
+                  $("#educationGSU").append(data);
+                });
+              </script>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
     <div class="row" id="military">
         <div class="col-md-12">
           <hr><h4>MILITARY</h4><hr>
+
+          <div class="row" id="navy">
+            <div class="col-md-6">
+              <h5 class="title">United States Navy<br>
+              Charleston, South Carolina</h5>
+
+              <h5 class="date">July 1986 to April 1992</h5>
+
+              <ul id="militaryDesc">
+                <script>
+                  $.ajax({
+                    url:"content/military.html"
+                    }).done(function(data) {
+                    $("#militaryDesc").append(data);
+                  });
+                </script>
+              </ul>
+            </div>
+          </div>
         </div>
     </div>
-
+    <br>
     <div class="row" id="contact">
         <div class="col-md-12">
           <hr><h4>CONTACT</h4><hr>
+          <div class="row" id="contact">
+            <div class="col-md-6">
+              <h3 id="name">Tim Benton</h3>
+
+              <h4 id="info">tgbonline@comcast.net<br>
+              (678 920-9299)</h4>
         </div>
     </div>
 

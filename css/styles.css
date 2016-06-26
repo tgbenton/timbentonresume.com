@@ -55,5 +55,24 @@ hr {
 .experienceDesc {
   clear: both;
   padding-top: 10px;
-  width: 750px;
+}
+
+#educationGSU {
+  clear: both;
+  padding-top: 10px;
+}
+
+#militaryDesc {
+  clear: both;
+  padding-top: 10px;
+}
+
+#name {
+  float: left;
+  padding: 5px 0 0 5px;
+  margin: 0;
+}
+
+#info {
+  float: right;
 }
