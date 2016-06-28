@@ -4,8 +4,13 @@
   padding: 0;
 }
 
+img {
+  border: 3px solid white;
+  border-radius: 80px;
+}
+
 h4 {
-  padding: 5px 0 0 5px;
+  padding-top: 5px;
   margin: 0;
 }
 
@@ -14,13 +19,29 @@ hr {
 }
 
 #header {
-  background-color: slategrey;
+  background-color: #444341;
   color: aliceblue;
   padding: 5px 0 0 5px;
 }
 
-#header p {
-  padding-left: 7px;
+#brand {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #7F7D7E;
+  color: white;
+  font-family: helvetica;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.75;
+}
+
+#hero {
+  background: url("http://imgur.com/EzlwgUU.png");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding-top: 125px;
 }
 
 #resume {
