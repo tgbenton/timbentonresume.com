@@ -37,7 +37,7 @@ hr {
 }
 
 #hero {
-  background: url("http://imgur.com/EzlwgUU.png");
+  background: url("../images/everestCropped.png");
   background-size: cover;
   background-position: center;
   height: 700px;
