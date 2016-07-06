@@ -19,8 +19,9 @@ hr {
 }
 
 #header {
-  margin: 0;
-  padding-left: 5px;
+  background-color: #444341;
+  color: aliceblue;
+  padding: 5px 0 0 0;
 }
 
 #brand {
