@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
 <head>
-  <title>Tim Benton</title>
+    <title>Tim Benton</title>
+
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,39 +10,22 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
 </head>
+
 <body>
-  <div class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <a href="" class="navbar-brand">Tim Benton</a>
-
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-
-        </button>
-
-
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-
-          <li><a href="">TECHNICAL COMPENTENCIES</a></li>
-          <li><a href="">PROFESSIONAL EXPERIENCE</a></li>
-          <li><a href="">MILITARY</a></li>
-          <li><a href="">EDUCATION</a></li>
-          <li><a href="">CONTACT</a></li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
 
 <div class="container">
+
+    <div class="row" id="header">
+        <div class="col-md-12">
+             <h4>Tim Benton</h4>
+             <p>Loganville, GA<br>
+             (678) 920-9299<br>
+             tgbonline@comcast.net</p>
+        </div>
+    </div>
+
     <div class="row" id="hero">
         <div class="col-md-12">
             <img class="img-responsive center-block" src="images/TimProfileCircle.png" />
@@ -53,7 +37,7 @@
 
     <div class="row" id="resume">
         <div class="col-md-12">
-            <hr><h4>TECHNICAL COMPENTENCIES</h4><hr>
+            <hr><h4>TECHNICAL COMPETENCIES</h4><hr>
             <table>
               <tr><td class="techcomp">Databases:</td><td class="techdata">Oracle 11g, 10g, 9i, 8i, MySQL 5.0.45</td></tr>
 
