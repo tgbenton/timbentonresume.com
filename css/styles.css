@@ -1,7 +1,6 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0;
 }
 
 img {
@@ -19,8 +18,13 @@ hr {
 }
 
 #header {
-  margin: 0;
-  padding-left: 5px;
+  margin: 0 0 0 0;
+  padding-left: 50px;
+  width: 100%;
+}
+
+#menu {
+  padding-left: 50px;
 }
 
 #brand {
@@ -95,4 +99,5 @@ hr {
 
 #info {
   float: right;
+  margin-bottom: 75px;
 }
