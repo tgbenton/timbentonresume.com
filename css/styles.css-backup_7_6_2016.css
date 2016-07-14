@@ -1,7 +1,6 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0;
 }
 
 img {
@@ -19,9 +18,13 @@ hr {
 }
 
 #header {
-  background-color: #444341;
-  color: aliceblue;
-  padding: 5px 0 0 0;
+  margin: 0 0 0 0;
+  padding-left: 50px;
+  width: 100%;
+}
+
+#menu {
+  padding-left: 50px;
 }
 
 #brand {
@@ -96,4 +99,5 @@ hr {
 
 #info {
   float: right;
+  margin-bottom: 75px;
 }

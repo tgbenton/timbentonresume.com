@@ -1,31 +1,53 @@
 <!doctype html>
 <html>
 <head>
-    <title>Tim Benton</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tim Benton</title>
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 
 </head>
 
 <body>
 
-<div class="container">
+  <div class="navbar navbar-inverse" id="header">>
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#hero" class="navbar-brand">Tim Benton</a>
 
-    <div class="row" id="header">
-        <div class="col-md-12">
-             <h4>Tim Benton</h4>
-             <p>Loganville, GA<br>
-             (678) 920-9299<br>
-             tgbonline@comcast.net</p>
-        </div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
+        </button>
+
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="menu">
+
+          <li><a href="#resume">TECHNICAL COMPETENCIES</a></li>
+          <li><a href="#profExperience">PROFESSIONAL EXPERIENCE</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#military">MILITARY</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+
+        </ul>
+      </div>
     </div>
+  </div>
 
+<div class="container">
     <div class="row" id="hero">
         <div class="col-md-12">
             <img class="img-responsive center-block" src="images/TimProfileCircle.png" />
@@ -43,9 +65,13 @@
 
               <tr><td class="techcomp">Operating Systems:</td><td class="techdata">Linux, HPUX, Windows Server</td></tr>
 
-              <tr><td class="techcomp">Tools &#38 Software:</td><td class="techdata">Oracle RDBMS, Oracle Data Guard, RMAN Backup &#38 Recovery, Oracle Golden Gate, Oracle Real Application Clusters (RAC), Oracle Automatic Storage Management (ASM), Oracle Enterprise Manager</td></tr>
+              <tr><td class="techcomp">Tools &#38 Software:</td><td class="techdata">Oracle RDBMS, Oracle Data Guard, RMAN Backup &#38 Recovery, Oracle Golden Gate, Oracle Real Application Clusters (RAC), Oracle Automatic Storage Management (ASM), Oracle Enterprise Manager, Oracle Audit Vault</td></tr>
             </table>
-            <hr><h4>PROFESSIONAL EXPERIENCE</h4><hr>
+
+            <div class="row" id="profExp">
+              <div class="col-md-6">
+                <hr><h4 id="profExperience">PROFESSIONAL EXPERIENCE</h4><hr>
+
             <div class="row" id="position1">
               <div class="col-md-6">
                 <h5 class="title">Manager of Database Administration<br>
@@ -275,14 +301,20 @@
           <hr><h4>CONTACT</h4><hr>
           <div class="row" id="contact">
             <div class="col-md-6">
-              <h4 id="name">Tim Benton</h4>
+              <h5 id="name">Tim Benton<br>
+              Loganville, GA</h5>
 
-              <h5 id="info">tgbonline@comcast.net<br>
+              <h5 id="info"><a href="mailto:tgbonline@comcast.net?Subject=Hello%20Tim Benton">tgbonline@comcast.net</a><br>
               (678 920-9299)</h5>
+
         </div>
     </div>
 
 </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
